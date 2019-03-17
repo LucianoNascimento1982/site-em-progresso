@@ -41,8 +41,17 @@ header a{
     color:#ffffffff;
     border-radius:30px;
 }
+
+.dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffffff;
+    margin-top:10px;
+    margin-bottom: 10px; 
+
+}
 header li {
-    float : left ;
+    float :left ;
     display: inline;
     padding: 0 20px 0 20px;
 }
@@ -116,10 +125,58 @@ float:left;
 #boxes .box img{
     width: 90px;
 }
- footer{
+
+aside#sidebar{ 
+    float:right;
+    width: 30%;
+    margin-top: 12px;
+}
+
+article#main-col{
+    float:left;
+    width: 60%;
+
+}
+
+ul#services{
+    list-style: none;
+    color:black;
+    padding: 20px;
+    border:#cccccccc solid 4px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+aside#sidebar.quote input, aside#sidebar.quote textarea {
+
+width: 60%;
+padding: 5px;
+
+}
+
+footer{
      padding:20px;
      margin-top:20px;
      color:#ffffffff;
      background-color: #e8491d;
      text-align: center;S 
+ }
+ @media( max-width 768px;){
+ header #branding,
+ header nav,
+ header nav li,
+ #newsletter h1 ,
+ #newsletter form 
+ {
+ float:none;
+ text align:center;
+ width:100%; }
+     }
+header{
+    padding-bottom: 20px;
+}
+#showcaseh1{
+    margin-top:40px;
+
+}
  }
